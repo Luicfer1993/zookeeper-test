@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zookeeper-test01" />
+        <module name="zookeeperlock-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="zookeeper-test" target="1.5" />
       <module name="zookeeper-test01" target="1.8" />
+      <module name="zookeeperlock-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
